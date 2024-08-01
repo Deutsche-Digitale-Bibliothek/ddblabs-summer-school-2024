@@ -29,6 +29,7 @@ Nach diesem Einblick führen die Teilnehmenden, begleitet vom DNBLab-Team, eine 
 
 ### Tools
 
-Wir verwenden Jupyter Notebook bzw. JupyterLab. Diese können über die Distribution „Anaconda“ lokal installiert werden. Eine weitere Option ist, Jupyter Notebooks auf Basis dieses Repositorys mit [Binder](https://mybinder.org/) zu erstellen.
+[JupyterLab](https://jupyter.org/) kann beispielsweise über die Distribution „Anaconda“ lokal installiert werden. Eine weitere Option ist, die Jupyter Notebooks auf Basis dieses Repositorys mit [Binder](https://mybinder.org/) oder [Google Colab](https://colab.google/) auszuführen.
 - Anaconda: https://www.anaconda.com/download/success
 - Binder: https://mybinder.org/v2/gh/Deutsche-Digitale-Bibliothek/ddblabs-summer-school-2024/HEAD
+- Google Colab: https://colab.research.google.com/github/Deutsche-Digitale-Bibliothek/ddblabs-summer-school-2024/blob/main
