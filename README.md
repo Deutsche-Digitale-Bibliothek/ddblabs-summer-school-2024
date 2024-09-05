@@ -35,4 +35,5 @@ Nach diesem Einblick führen die Teilnehmenden, begleitet vom DNBLab-Team, eine 
 - Google Colab: https://colab.research.google.com/github/Deutsche-Digitale-Bibliothek/ddblabs-summer-school-2024/blob/main
 
 ### Links
-- https://github.com/ieg-dhr/Notebooks4Historical_Newspapers
+- Python-Bibliothek für die DDB-API: https://pypi.org/project/ddbapi/
+- Notebooks, die LLMs nutzen, um NLP-Aufgaben in historischen Zeitungen durchzuführen: https://github.com/ieg-dhr/Notebooks4Historical_Newspapers
