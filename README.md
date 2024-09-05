@@ -19,11 +19,11 @@ Nach diesem Einblick führen die Teilnehmenden, begleitet vom DNBLab-Team, eine 
 
 | Uhrzeit | Programmpunkt                                                                    | Dozierende                             |
 |---------|----------------------------------------------------------------------------------|----------------------------------------|
-| 13:30   | Einführung ins „Deutsche Zeitungsportal“                                         | Lisa Landes (virtuell)                 |
+| 13:30   | Einführung ins „Deutsche Zeitungsportal“                                         | Michael Büchner                        |
 | 13:45   | Download der Zeitungsportaldaten über die API der Deutschen Digitalen Bibliothek | Michael Büchner                        |
 | 14:45   | Pause                                                                            |                                        |
 | 15:00   | Einführung ins DNBLab                                                            | Franziska Fuchs                        |
-| 15:15   | Datenanalyse                                                                     | Franziska Fuchs und Stephanie Nitsche |
+| 15:15   | Datenanalyse                                                                     | Franziska Fuchs und Stephanie Nitsche  |
 | 16:45   | Fragen und Feedback                                                              |                                        |
 | 17:00   |                                                                                  |                                        |
 
@@ -33,3 +33,6 @@ Nach diesem Einblick führen die Teilnehmenden, begleitet vom DNBLab-Team, eine 
 - Anaconda: https://www.anaconda.com/download/success
 - Binder: https://mybinder.org/v2/gh/Deutsche-Digitale-Bibliothek/ddblabs-summer-school-2024/HEAD
 - Google Colab: https://colab.research.google.com/github/Deutsche-Digitale-Bibliothek/ddblabs-summer-school-2024/blob/main
+
+### Links
+- https://github.com/ieg-dhr/Notebooks4Historical_Newspapers
