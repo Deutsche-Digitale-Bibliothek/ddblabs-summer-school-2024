@@ -2,7 +2,7 @@ pysolr
 pandas
 requests
 lxml
-tqdm
+#tqdm
 unicodedata
 bs4
 pathlib
