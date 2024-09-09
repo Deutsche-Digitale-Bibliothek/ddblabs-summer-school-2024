@@ -1,7 +1,6 @@
 pysolr
 pandas
 requests
-os
 lxml
 tdqm
 unicodedata
