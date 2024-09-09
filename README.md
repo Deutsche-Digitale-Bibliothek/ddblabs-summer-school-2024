@@ -18,7 +18,7 @@ Nach diesem Einblick führen die Teilnehmenden, begleitet vom DNBLab-Team, eine 
 ### Programm
 
 | Uhrzeit | Programmpunkt                                                                    | Dozierende                             | Notebook   |
-|---------|----------------------------------------------------------------------------------|----------------------------------------|            |
+|---------|----------------------------------------------------------------------------------|----------------------------------------|------------|
 | 13:30   | Einführung ins „Deutsche Zeitungsportal“                                         | Michael Büchner                        |            |
 | 13:45   | Download der Zeitungsportaldaten über die API der Deutschen Digitalen Bibliothek | Michael Büchner                        | [001]()    |
 | 14:45   | Pause                                                                            |                                        |            |
