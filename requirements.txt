@@ -1,0 +1,16 @@
+pysolr
+pandas
+requests
+os
+lxml
+tdqm
+unicodedata
+bs4
+pathlib
+string
+nltk
+collections
+matplotlib
+numpy
+wordcloud
+spacy
