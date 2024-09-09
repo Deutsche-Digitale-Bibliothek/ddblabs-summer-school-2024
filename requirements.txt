@@ -7,7 +7,7 @@ bs4
 pathlib
 #string
 nltk
-collections
+#collections
 matplotlib
 numpy
 wordcloud
