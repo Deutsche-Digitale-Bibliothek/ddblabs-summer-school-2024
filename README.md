@@ -23,7 +23,7 @@ Nach diesem Einblick führen die Teilnehmenden, begleitet vom DNBLab-Team, eine 
 | 13:45   | Download der Zeitungsportaldaten über die API der Deutschen Digitalen Bibliothek | Michael Büchner                        |
 | 14:45   | Pause                                                                            |                                        |
 | 15:00   | Einführung ins DNBLab                                                            | Franziska Fuchs                        |
-| 15:15   | Datenanalyse                                                                     | Franziska Fuchs und Stephanie Nitsche  |
+| 15:15   | Datenanalyse  test test test                                                     | Franziska Fuchs und Stephanie Nitsche  |            
 | 16:45   | Fragen und Feedback                                                              |                                        |
 | 17:00   |                                                                                  |                                        |
 
