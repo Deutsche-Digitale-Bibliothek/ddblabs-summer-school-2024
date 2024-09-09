@@ -5,7 +5,7 @@ lxml
 tqdm
 bs4
 pathlib
-string
+#string
 nltk
 collections
 matplotlib
