@@ -1,6 +1,6 @@
 # Summer School: Digitale Methoden der Zeitungsanalyse
 
-*Hinweis:* Dieses Notebook enthält nur die KI-Promps.
+*Hinweis:* Diese Markdown-Datei enthält nur die KI-Promps.
 
 ## Suchindex newspaper
 
