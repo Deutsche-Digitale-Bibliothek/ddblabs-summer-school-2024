@@ -24,3 +24,27 @@ Erstelle mit Python ein Verzeichnis La_Otra_Alemania, in dem heruntergeladene XM
 Erstelle ein möglichst einfaches Python-Skript, das alle METS/MODS-Dateien in dem Verzeichnis „La_Otra_Alemania“ einliest und URLs mittels des XPath-Ausdrucks `//mets:mets/mets:fileSec/mets:fileGrp[@USE="DDB_FULLTEXT"]/mets:file/mets:FLocat/@xlink:href` extrahiert. Die extrahierten URLs sollen heruntergeladen und in Unterverzeichnissen gespeichert werden. Die Unterverzeichnisse werden nach den Dateinamen der METS/MODS-Dateien benannt. Die heruntergeladenen XML-Dateien sollen mit 1 beginnend durchnummeriert werden.
 
 Das Gleiche soll mit JPEG-Dateien und dem xPath-Ausdruck `//mets:mets/mets:fileSec/mets:fileGrp[@USE="DEFAULT"]/mets:file/mets:FLocat/@xlink:href` gemacht werden.
+
+## DDB-API-Querys
+
+- Liste aller Zeitungstitel im Zeitungsportal als Excel: [https://api.deutsche-digitale-bibliothek.de/2/search/index/newspaper/select?q=hasLoadedIssues:true&wt=xlsx&fl=id,title,language,frequency,location,progress,hasFulltext&rows=2147483647](https://api.deutsche-digitale-bibliothek.de/2/search/index/newspaper/select?q=hasLoadedIssues:true&wt=xlsx&fl=id,title,language,frequency,location,progress,hasFulltext&rows=2147483647)
+- Volltextsuche in zwei Teitungstiteln: [https://api.deutsche-digitale-bibliothek.de/search/index/newspaper-issues/select?df=plainpagefulltext&q=Preis*&fl=id,paper_title,pagenumber&hl=true&hl.fl=plainpagefulltext&facet=true&facet.field=zdb_id&fq=zdb_id:(2747971-7 OR 2979030-X)](https://api.deutsche-digitale-bibliothek.de/search/index/newspaper-issues/select?df=plainpagefulltext&q=Preis*&fl=id,paper_title,pagenumber&hl=true&hl.fl=plainpagefulltext&facet=true&facet.field=zdb_id&fq=zdb_id:(2747971-7 OR 2979030-X))
+
+## DDB-API-Querys
+
+- Liste aller Zeitungstitel im Zeitungsportal als Excel:
+[https://api.deutsche-digitale-bibliothek.de/2/search/index/newspaper/select
+q    = hasLoadedIssues:true
+wt   = xlsx
+fl   = id,title,language,frequency,location,progress,hasFulltext
+rows = 2147483647](https://api.deutsche-digitale-bibliothek.de/2/search/index/newspaper/select?q=hasLoadedIssues:true&wt=xlsx&fl=id,title,language,frequency,location,progress,hasFulltext&rows=2147483647)
+- Volltextsuche in zwei Teitungstiteln: 
+[https://api.deutsche-digitale-bibliothek.de/search/index/newspaper-issues/select
+df          = plainpagefulltext
+q           = Preis*
+fl          = id,paper_title,pagenumber
+hl          = true
+hl.fl       = plainpagefulltext
+facet       = true
+facet.field = zdb_id
+fq          = zdb_id:(2747971-7 OR 2979030-X)](https://api.deutsche-digitale-bibliothek.de/search/index/newspaper-issues/select?df=plainpagefulltext&q=Preis*&fl=id,paper_title,pagenumber&hl=true&hl.fl=plainpagefulltext&facet=true&facet.field=zdb_id&fq=zdb_id:%282747971-7%20OR%202979030-X%29)
