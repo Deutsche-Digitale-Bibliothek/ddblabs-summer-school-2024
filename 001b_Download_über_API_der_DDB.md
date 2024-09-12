@@ -28,13 +28,13 @@ Das Gleiche soll mit JPEG-Dateien und dem xPath-Ausdruck `//mets:mets/mets:fileS
 ## DDB-API-Querys
 
 - Liste aller Zeitungstitel im Zeitungsportal als Excel:
-[https://api.deutsche-digitale-bibliothek.de/2/search/index/newspaper/select<br>
+[https://api.deutsche-digitale-bibliothek.de/2/search/index/newspaper/select?<br>
 q    = hasLoadedIssues:true<br>
 wt   = xlsx<br>
 fl   = id,title,language,frequency,location,progress,hasFulltext<br>
 rows = 2147483647](https://api.deutsche-digitale-bibliothek.de/2/search/index/newspaper/select?q=hasLoadedIssues:true&wt=xlsx&fl=id,title,language,frequency,location,progress,hasFulltext&rows=2147483647)
 - Volltextsuche in zwei Teitungstiteln: 
-[https://api.deutsche-digitale-bibliothek.de/search/index/newspaper-issues/select<br>
+[https://api.deutsche-digitale-bibliothek.de/search/index/newspaper-issues/select?<br>
 df          = plainpagefulltext<br>
 q           = Preis*<br>
 fl          = id,paper_title,pagenumber<br>
