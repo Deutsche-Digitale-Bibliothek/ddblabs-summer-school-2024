@@ -27,24 +27,19 @@ Das Gleiche soll mit JPEG-Dateien und dem xPath-Ausdruck `//mets:mets/mets:fileS
 
 ## DDB-API-Querys
 
-- Liste aller Zeitungstitel im Zeitungsportal als Excel: [https://api.deutsche-digitale-bibliothek.de/2/search/index/newspaper/select?q=hasLoadedIssues:true&wt=xlsx&fl=id,title,language,frequency,location,progress,hasFulltext&rows=2147483647](https://api.deutsche-digitale-bibliothek.de/2/search/index/newspaper/select?q=hasLoadedIssues:true&wt=xlsx&fl=id,title,language,frequency,location,progress,hasFulltext&rows=2147483647)
-- Volltextsuche in zwei Teitungstiteln: [https://api.deutsche-digitale-bibliothek.de/search/index/newspaper-issues/select?df=plainpagefulltext&q=Preis*&fl=id,paper_title,pagenumber&hl=true&hl.fl=plainpagefulltext&facet=true&facet.field=zdb_id&fq=zdb_id:(2747971-7 OR 2979030-X)](https://api.deutsche-digitale-bibliothek.de/search/index/newspaper-issues/select?df=plainpagefulltext&q=Preis*&fl=id,paper_title,pagenumber&hl=true&hl.fl=plainpagefulltext&facet=true&facet.field=zdb_id&fq=zdb_id:(2747971-7 OR 2979030-X))
-
-## DDB-API-Querys
-
 - Liste aller Zeitungstitel im Zeitungsportal als Excel:
-[https://api.deutsche-digitale-bibliothek.de/2/search/index/newspaper/select
-q    = hasLoadedIssues:true
-wt   = xlsx
-fl   = id,title,language,frequency,location,progress,hasFulltext
+[https://api.deutsche-digitale-bibliothek.de/2/search/index/newspaper/select<br>
+q    = hasLoadedIssues:true<br>
+wt   = xlsx<br>
+fl   = id,title,language,frequency,location,progress,hasFulltext<br>
 rows = 2147483647](https://api.deutsche-digitale-bibliothek.de/2/search/index/newspaper/select?q=hasLoadedIssues:true&wt=xlsx&fl=id,title,language,frequency,location,progress,hasFulltext&rows=2147483647)
 - Volltextsuche in zwei Teitungstiteln: 
-[https://api.deutsche-digitale-bibliothek.de/search/index/newspaper-issues/select
-df          = plainpagefulltext
-q           = Preis*
-fl          = id,paper_title,pagenumber
-hl          = true
-hl.fl       = plainpagefulltext
-facet       = true
+[https://api.deutsche-digitale-bibliothek.de/search/index/newspaper-issues/select<br>
+df          = plainpagefulltext<br>
+q           = Preis*<br>
+fl          = id,paper_title,pagenumber<br>
+hl          = true<br>
+hl.fl       = plainpagefulltext<br>
+facet       = true<br>
 facet.field = zdb_id
 fq          = zdb_id:(2747971-7 OR 2979030-X)](https://api.deutsche-digitale-bibliothek.de/search/index/newspaper-issues/select?df=plainpagefulltext&q=Preis*&fl=id,paper_title,pagenumber&hl=true&hl.fl=plainpagefulltext&facet=true&facet.field=zdb_id&fq=zdb_id:%282747971-7%20OR%202979030-X%29)
