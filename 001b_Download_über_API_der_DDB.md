@@ -33,7 +33,7 @@ q    = hasLoadedIssues:true<br>
 wt   = xlsx<br>
 fl   = id,title,language,frequency,location,progress,hasFulltext<br>
 rows = 2147483647](https://api.deutsche-digitale-bibliothek.de/2/search/index/newspaper/select?q=hasLoadedIssues:true&wt=xlsx&fl=id,title,language,frequency,location,progress,hasFulltext&rows=2147483647)
-- Volltextsuche in zwei Teitungstiteln: 
+- Volltextsuche in zwei Zeitungstiteln: 
 [https://api.deutsche-digitale-bibliothek.de/search/index/newspaper-issues/select?<br>
 df          = plainpagefulltext<br>
 q           = Preis*<br>
