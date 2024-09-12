@@ -41,5 +41,5 @@ fl          = id,paper_title,pagenumber<br>
 hl          = true<br>
 hl.fl       = plainpagefulltext<br>
 facet       = true<br>
-facet.field = zdb_id
+facet.field = zdb_id<br>
 fq          = zdb_id:(2747971-7 OR 2979030-X)](https://api.deutsche-digitale-bibliothek.de/search/index/newspaper-issues/select?df=plainpagefulltext&q=Preis*&fl=id,paper_title,pagenumber&hl=true&hl.fl=plainpagefulltext&facet=true&facet.field=zdb_id&fq=zdb_id:%282747971-7%20OR%202979030-X%29)
